@@ -2,18 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5bde52af-e5b6-4d42-8a96-c6bc84eef979" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/mysql/data/81dfbbff81e3.pid" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mysql/data/ibtmp1" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/phpmyadmin/sessions/sess_ecea7178fc5ad11b83c7467093f21d67" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dockerised-php.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dockerised-php.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysql/data/general.log" beforeDir="false" afterPath="$PROJECT_DIR$/mysql/data/general.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysql/data/ib_buffer_pool" beforeDir="false" afterPath="$PROJECT_DIR$/mysql/data/ib_buffer_pool" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysql/data/ib_logfile0" beforeDir="false" afterPath="$PROJECT_DIR$/mysql/data/ib_logfile0" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysql/data/ibdata1" beforeDir="false" afterPath="$PROJECT_DIR$/mysql/data/ibdata1" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/website" beforeDir="false" afterPath="$PROJECT_DIR$/website" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/website/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/website/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/website/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/website/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/website/public/mix-manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/website/public/mix-manifest.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/website/resources/assets/js/components/App.vue" beforeDir="false" afterPath="$PROJECT_DIR$/website/resources/assets/js/components/App.vue" afterDir="false" />
@@ -31,11 +23,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/docker-compose.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="118">
-              <caret line="40" column="36" selection-start-line="40" selection-start-column="33" selection-end-line="40" selection-end-column="43" />
+            <state relative-caret-position="-113">
+              <caret line="35" column="17" lean-forward="true" selection-start-line="35" selection-start-column="17" selection-end-line="35" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="84">
+              <caret line="4" column="7" selection-start-line="4" selection-start-column="7" selection-end-line="4" selection-end-column="7" />
             </state>
           </provider>
         </entry>
@@ -69,6 +70,7 @@
         <option value="$PROJECT_DIR$/website/vue-js-laravel-ssr/resources/assets/js/entry-server.js" />
         <option value="$PROJECT_DIR$/website/vue-js-laravel-ssr/resources/assets/js/components/App.vue" />
         <option value="$PROJECT_DIR$/docker-compose.yml" />
+        <option value="$PROJECT_DIR$/website/.gitignore" />
         <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
@@ -221,12 +223,12 @@
       <updated>1550476511484</updated>
       <workItem from="1550476515329" duration="7030000" />
       <workItem from="1550484104239" duration="14000" />
-      <workItem from="1550485150904" duration="499000" />
+      <workItem from="1550485150904" duration="837000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7543000" />
+    <option name="totallyTimeSpent" value="7881000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="0" width="1380" height="735" extended-state="0" />
@@ -294,17 +296,33 @@
     <entry file="file://$PROJECT_DIR$/website/vue-js-laravel-ssr/resources/assets/js/app.js" />
     <entry file="file://$PROJECT_DIR$/website/vue-js-laravel-ssr/resources/assets/js/entry-server.js" />
     <entry file="file://$PROJECT_DIR$/website/vue-js-laravel-ssr/resources/assets/js/components/App.vue" />
-    <entry file="file://$PROJECT_DIR$/.gitignore">
+    <entry file="file://$PROJECT_DIR$/website/public/.htaccess">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/website/.env">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/website/.gitattributes">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/website/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="13" selection-start-column="13" selection-end-column="13" />
+        <state relative-caret-position="147">
+          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/docker-compose.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="118">
-          <caret line="40" column="36" selection-start-line="40" selection-start-column="33" selection-end-line="40" selection-end-column="43" />
+        <state relative-caret-position="-113">
+          <caret line="35" column="17" lean-forward="true" selection-start-line="35" selection-start-column="17" selection-end-line="35" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="4" column="7" selection-start-line="4" selection-start-column="7" selection-end-line="4" selection-end-column="7" />
         </state>
       </provider>
     </entry>
