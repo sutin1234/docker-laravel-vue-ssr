@@ -44,6 +44,22 @@ services:
             - ./mysql/my.cnf:/etc/mysql/my.cnf
         networks:
         - laravel-network
+    # phpmyadmin
+    phpmyadmin:
+        image: phpmyadmin/phpmyadmin
+        container_name: phpMyAdmin
+        restart: always
+        environment:
+            - "PMA_HOST=db"
+            - "PMA_PORT=3306"
+        ports:
+            - "8888:80"
+        external_links:
+            - db:db
+        volumes:
+            - "./phpmyadmin/sessions:/sessions"
+        networks:
+            - laravel-network
 networks:
      laravel-network:
         driver: bridge
