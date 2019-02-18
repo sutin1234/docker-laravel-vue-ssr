@@ -1,0 +1,49 @@
+version: '2'
+
+services:
+    #nginx service
+    web:
+        container_name: docker-nginx
+        build:
+            context: ./
+            dockerfile: Dockerfile
+        image: nginx:latest
+        restart: always
+        ports:
+            - "80:80"
+            - "443:443"
+        volumes:
+            - ./website:/website
+            - ./conf/site.conf:/etc/nginx/conf.d/default.conf
+        links:
+            - php
+        networks:
+            - laravel-network
+    #php7 service
+    php:
+        container_name: docker-php7-v8js
+        image: pifagor87/php7-v8js
+        networks:
+            - laravel-network
+        volumes:
+            - ./website:/website
+            - ./php/local.ini:/usr/local/etc/php/conf.d/local.ini
+    #MySQL Service
+    db:
+        image: mysql:5.7.22
+        container_name: docker-mysql
+        restart: always
+        tty: true
+        ports:
+            - "3306:3306"
+        environment:
+            MYSQL_DATABASE: laravel_db
+            MYSQL_ROOT_PASSWORD: laravel_db
+        volumes:
+            - ./mysql/data:/var/lib/mysql
+            - ./mysql/my.cnf:/etc/mysql/my.cnf
+        networks:
+        - laravel-network
+networks:
+     laravel-network:
+        driver: bridge
