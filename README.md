@@ -1,12 +1,26 @@
-The Docker setup for PHP applications using PHP7-FPM and Nginx described in http://geekyplatypus.com/dockerise-your-php-application-with-nginx-and-php7-fpm
+## Docker Laravel Vue SSR with phpV8Js
 
-## Instructions
-1. Checkout the repository
-* ~~Create a record in your `hosts` file to point `php-docker.local` to your Docker environment~~
-* Run `docker-compose up`
-* ~~Navigate to php-docker.local:8080 in a browser~~
-* Navigate to localhost:8080
 
-That's it! You have your local PHP setup using Docker
+### Config docker compose
 
-*Example of activated PHP logging* - https://github.com/mikechernev/dockerised-php/tree/feature/log-to-stdout
+- git clone https://github.com/sutin1234/docker-laravel-vue-ssr.git
+- cd website folder
+- clone laravel repository
+- cp .env-example.env ==> config .env
+- replace content of laravel into website
+- run composer install
+- php artisan preset vue
+- npm install & npm run dev
+
+
+### setup docker compose
+- change environment in docker-compose.yml
+
+### start docker
+- docker-compose up -d
+
+### run laravel
+http://localhost/public
+
+### run phpmyadmin
+http://localhost:8888
